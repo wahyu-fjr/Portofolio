@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detail Pembelajaran — Fildzah</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="detail.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="detail-header">
+
+        <div class="header-inner">
+
+            <a href="index.html#journey" class="back-button">
+                ← Kembali
+            </a>
+
+            <div class="header-label">
+                PORTFOLIO PEMBELAJARAN
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="detail-hero">
+
+            <div class="hero-inner">
+
+                <span class="detail-year" id="detail-year">
+                    2026
+                </span>
+
+                <h1 id="detail-title">
+                    Nama Mata Kuliah
+                </h1>
+
+                <p id="detail-description">
+                    Deskripsi mata kuliah akan muncul di sini.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MODUL + ANALISIS ================= -->
+
+        <section class="learning-detail">
+
+            <div class="learning-grid">
+
+                <!-- LEFT : MODUL AJAR -->
+
+                <div class="module-column">
+
+                    <div class="section-heading">
+
+                        <span class="section-number">
+                            01
+                        </span>
+
+                        <div>
+                            <span class="small-label">
+                                DOKUMENTASI
+                            </span>
+
+                            <h2>Modul Ajar</h2>
+                        </div>
+
+                    </div>
+
+
+                    <div class="pdf-wrapper">
+
+                        <iframe id="module-pdf" src="" title="Preview Modul Ajar">
+                        </iframe>
+
+                    </div>
+
+
+                    <a id="pdf-link" href="#" target="_blank" class="open-document">
+                        Buka modul di Google Drive ↗
+                    </a>
+
+                </div>
+
+
+                <!-- RIGHT : ANALISIS -->
+
+                <div class="analysis-column">
+
+                    <div class="section-heading">
+
+                        <span class="section-number">
+                            02
+                        </span>
+
+                        <div>
+                            <span class="small-label">
+                                REFLEKSI
+                            </span>
+
+                            <h2>Analisis Siklus</h2>
+                        </div>
+
+                    </div>
+
+
+                    <div class="analysis-list">
+
+                        <!-- CONNECTION -->
+
+                        <div class="analysis-item">
+
+                            <div class="analysis-icon">
+                                01
+                            </div>
+
+                            <div>
+                                <h3>Connection</h3>
+
+                                <p id="connection">
+                                    -
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <!-- CHALLENGE -->
+
+                        <div class="analysis-item">
+
+                            <div class="analysis-icon">
+                                02
+                            </div>
+
+                            <div>
+                                <h3>Challenge</h3>
+
+                                <p id="challenge">
+                                    -
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <!-- CONCEPT -->
+
+                        <div class="analysis-item">
+
+                            <div class="analysis-icon">
+                                03
+                            </div>
+
+                            <div>
+                                <h3>Concept</h3>
+
+                                <p id="concept">
+                                    -
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <!-- CHANGE -->
+
+                        <div class="analysis-item">
+
+                            <div class="analysis-icon">
+                                04
+                            </div>
+
+                            <div>
+                                <h3>Change</h3>
+
+                                <p id="change">
+                                    -
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MEDIA ================= -->
+
+        <section class="resources-section">
+
+            <div class="resources-inner">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        03
+                    </span>
+
+                    <div>
+                        <span class="small-label">
+                            PEMBELAJARAN
+                        </span>
+
+                        <h2>Media Pembelajaran</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="resource-grid" id="media-container">
+
+                    <!-- Diisi otomatis oleh detail.js -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LKPD ================= -->
+
+        <section class="resources-section lkpd-section">
+
+            <div class="resources-inner">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        04
+                    </span>
+
+                    <div>
+                        <span class="small-label">
+                            AKTIVITAS
+                        </span>
+
+                        <h2>Lembar Kerja</h2>
+                    </div>
+
+                </div>
+
+
+                <div id="lkpd-container">
+
+                    <!-- Diisi otomatis oleh detail.js -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <section class="detail-footer">
+
+            <a href="index.html#journey">
+                ← Kembali ke perjalanan belajar
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <script src="detail.js"></script>
+
+</body>
+
+</html>

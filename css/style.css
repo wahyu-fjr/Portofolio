@@ -2082,6 +2082,7 @@ header nav {
 
 }
 
+
 /* =========================
    CONTACT
    ========================= */
@@ -2167,6 +2168,214 @@ header nav {
     background: var(--purple);
     color: #fff;
     transform: translateY(-3px);
+}
+
+
+/* CONTACT — 3 REFLECTION CARDS */
+
+.contact-content {
+    max-width: 700px;
+    position: relative;
+    z-index: 2;
+
+    margin-bottom: 38px;
+}
+
+.contact-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(38px, 5vw, 60px);
+    line-height: 1.03;
+    letter-spacing: -2.5px;
+    margin-bottom: 20px;
+}
+
+.contact-content h2 span {
+    color: var(--pink);
+}
+
+.contact-content p {
+    max-width: 620px;
+
+    color: rgba(255, 255, 255, .65);
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+/* CARDS contact */
+
+.contact-cards {
+    position: relative;
+    z-index: 2;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 16px;
+
+    margin-bottom: 30px;
+}
+
+.contact-card {
+    position: relative;
+
+    min-height: 230px;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .10);
+
+    overflow: hidden;
+
+    transition:
+        transform .3s ease,
+        background .3s ease,
+        border-color .3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+
+    background: rgba(255, 255, 255, .09);
+    border-color: rgba(255, 255, 255, .18);
+}
+
+
+/* NUMBER */
+
+.contact-card-number {
+    position: absolute;
+
+    top: 20px;
+    right: 22px;
+
+    color: rgba(255, 255, 255, .35);
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+/* ICON */
+
+.contact-card-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 25px;
+
+    border-radius: 13px;
+
+    background: rgba(104, 87, 232, .18);
+    color: #a99cff;
+
+    font-size: 17px;
+}
+
+
+/* TITLE */
+
+.contact-card h3 {
+    margin: 0 0 10px;
+
+    font-family: "Poppins", sans-serif;
+
+    color: white;
+
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+
+/* DESCRIPTION */
+
+.contact-card p {
+    margin: 0;
+
+    color: rgba(255, 255, 255, .58);
+    text-align: justify;
+    font-size: 12.5px;
+    line-height: 1.7;
+}
+
+
+/* CONNECT BUTTON contact */
+
+.contact-button {
+    position: relative;
+    z-index: 2;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+
+    background: #fff;
+    color: #171735;
+
+    padding: 14px 20px;
+
+    border-radius: 13px;
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+    transition: .25s;
+}
+
+.contact-button:hover {
+    background: var(--purple);
+    color: #fff;
+
+    transform: translateY(-3px);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 850px) {
+
+    .contact-box {
+        padding: 45px;
+    }
+
+    .contact-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-card {
+        min-height: auto;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .contact {
+        padding: 75px 5%;
+    }
+
+    .contact-box {
+        padding: 32px 24px;
+        border-radius: 25px;
+    }
+
+    .contact-content h2 {
+        font-size: 40px;
+        letter-spacing: -2px;
+    }
+
+    .contact-card {
+        padding: 22px;
+    }
 }
 
 /* =====================================================
@@ -3233,4 +3442,209 @@ header nav {
     .btn-secondary {
         width: 100%;
     }
+}
+/* =====================================================
+   DARK MODE - PORTOFOLIO MATA KULIAH
+   ===================================================== */
+
+body.dark-mode .mk-section {
+    background: #151522;
+    color: #ffffff;
+}
+
+/* Heading */
+body.dark-mode .mk-heading h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .mk-heading p {
+    color: rgba(255, 255, 255, .65);
+}
+
+body.dark-mode .mk-label {
+    color: #a99cff;
+}
+
+/* Sidebar */
+body.dark-mode .mk-sidebar {
+    background: #202033;
+    border-color: rgba(255, 255, 255, .08);
+}
+
+body.dark-mode .mk-sidebar-title {
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, .08);
+}
+
+body.dark-mode .mk-sidebar-title i {
+    color: #a99cff;
+}
+
+/* List item */
+body.dark-mode .mk-item {
+    color: rgba(255, 255, 255, .75);
+}
+
+body.dark-mode .mk-item:hover {
+    background: rgba(104, 87, 232, .12);
+}
+
+body.dark-mode .mk-item-icon {
+    background: rgba(104, 87, 232, .15);
+    color: #a99cff;
+}
+
+/* Item aktif tetap ungu */
+body.dark-mode .mk-item.active {
+    background: #6857e8;
+    color: #ffffff;
+}
+
+body.dark-mode .mk-item.active .mk-item-icon {
+    background: rgba(255, 255, 255, .17);
+    color: #ffffff;
+}
+
+/* Course Header */
+body.dark-mode .mk-course-header {
+    background: #202033;
+    border-color: rgba(255, 255, 255, .08);
+}
+
+body.dark-mode .mk-course-header h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .mk-course-header p {
+    color: rgba(255, 255, 255, .65);
+}
+
+body.dark-mode .mk-course-label {
+    color: #a99cff;
+}
+
+body.dark-mode .mk-course-number {
+    background: rgba(104, 87, 232, .18);
+    color: #a99cff;
+}
+
+/* Cards
+   Warna pastel tetap dipertahankan */
+body.dark-mode .card-purple {
+    background: #302b52;
+    color: #b8adff;
+}
+
+body.dark-mode .card-blue {
+    background: #263b55;
+    color: #79b2ff;
+}
+
+body.dark-mode .card-pink {
+    background: #4a2c3e;
+    color: #f28fba;
+}
+
+body.dark-mode .card-yellow {
+    background: #4a4027;
+    color: #e5bd55;
+}
+
+body.dark-mode .card-coral {
+    background: #4a302a;
+    color: #f28b70;
+}
+
+body.dark-mode .card-green {
+    background: #263f35;
+    color: #6bd09b;
+}
+
+/* Card icon */
+body.dark-mode .mk-card-icon {
+    background: rgba(255, 255, 255, .10);
+}
+
+/* Document */
+body.dark-mode .mk-document {
+    background: #0f0f1b;
+}
+
+body.dark-mode .mk-drive-button {
+    background: #ffffff;
+    color: #171735;
+}
+
+body.dark-mode .mk-drive-button:hover {
+    background: #6857e8;
+    color: #ffffff;
+}
+
+/* =====================================================
+   DARK MODE - CONTACT
+   ===================================================== */
+
+body.dark-mode .contact {
+    background: #151522;
+}
+
+body.dark-mode .contact-box {
+    background: #202033;
+}
+
+/* Judul */
+body.dark-mode .contact-content h2 {
+    color: #ffffff;
+}
+
+body.dark-mode .contact-content h2 span {
+    color: #e76fae;
+}
+
+/* Deskripsi */
+body.dark-mode .contact-content p {
+    color: rgba(255, 255, 255, .65);
+}
+
+/* 3 Card */
+body.dark-mode .contact-card {
+    background: rgba(255, 255, 255, .05);
+    border-color: rgba(255, 255, 255, .08);
+}
+
+body.dark-mode .contact-card:hover {
+    background: rgba(255, 255, 255, .08);
+    border-color: rgba(255, 255, 255, .15);
+}
+
+/* Nomor card */
+body.dark-mode .contact-card-number {
+    color: rgba(255, 255, 255, .35);
+}
+
+/* Icon */
+body.dark-mode .contact-card-icon {
+    background: rgba(104, 87, 232, .18);
+    color: #a99cff;
+}
+
+/* Judul card */
+body.dark-mode .contact-card h3 {
+    color: #ffffff;
+}
+
+/* Isi card */
+body.dark-mode .contact-card p {
+    color: rgba(255, 255, 255, .58);
+}
+
+/* Tombol */
+body.dark-mode .contact-button {
+    background: #ffffff;
+    color: #171735;
+}
+
+body.dark-mode .contact-button:hover {
+    background: #6857e8;
+    color: #ffffff;
 }

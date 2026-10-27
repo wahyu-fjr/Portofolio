@@ -380,7 +380,7 @@ const modules = {
 
         year: "2026",
 
-        title: "Kegiatan Pembelajaran Senam Lantai ",
+        title: "Kegiatan Pembelajaran Senam Lantai",
 
         description:
             "Kelas 7i - SMP Negeri 5 Malang",
@@ -396,7 +396,6 @@ const modules = {
 
         challenge:
             "Tantangannya adalah mengolah hasil asesmen menjadi dasar untuk menentukan strategi pembelajaran yang tepat bagi murid yang beragam.",
-
         concept:
             "DUP, TaRL, dan CRT menjadi kerangka untuk menciptakan pembelajaran yang adaptif, inklusif, kontekstual, dan berpihak pada murid.",
 

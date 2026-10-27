@@ -12,16 +12,16 @@ const modules = {
 
         year: "2026",
 
-        title: "Pengolahan Dokumen dan Presentasi menggunakan Canva",
+        title: "KegiatanPembelajaran Bola Basket",
 
         description:
-            "Kelas 7 B - SMP Negeri 28 Malang",
+            "Kelas 7i - SMP Negeri 5 Malang",
 
         pdf:
-            "https://drive.google.com/file/d/1KMxa13Lz_Y2_vA6hUWw7bKyp5GC9rbxT/preview",
+            "https://docs.google.com/document/d/1BAxvnfdN4vnqaO9Ah1m0N-NOGx9c6Ar3/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         drive:
-            "https://drive.google.com/drive/folders/1crr_4GuvAuR3CwjBWFPoUf4NSga8f7CU?usp=sharing",
+            "https://docs.google.com/document/d/1BAxvnfdN4vnqaO9Ah1m0N-NOGx9c6Ar3/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         connection:
             "Pembelajaran berkaitan dengan pentingnya apersepsi, teknologi, dan praktik langsung untuk meningkatkan kesiapan serta antusiasme murid.",
@@ -40,7 +40,7 @@ const modules = {
             {
                 type: "Materi",
                 title: "Materi Pembelajaran",
-                link: "https://drive.google.com/file/d/1C7hMilgLZA8eSKgx_tt_bK6DSBP53GKH/view?usp=sharing"
+                link: "https://docs.google.com/presentation/d/1kVQf5fTrkPNwTuTRPLK91qWosiiwrCfL/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true"
             },
 
             {
@@ -58,7 +58,7 @@ const modules = {
             description:
                 "Lembar kerja yang digunakan dalam kegiatan pembelajaran.",
 
-            link: "https://drive.google.com/file/d/14gf8_8QVQXwobpSuWj2Kz4eywUe2BwnI/view?usp=sharing"
+            link: ""
 
         }
 
@@ -73,16 +73,16 @@ const modules = {
 
         year: "2026",
 
-        title: "Konsep Kecerdasan Artifisial",
+        title: "Kegiatan Pembelajaran Bola Basket ",
 
         description:
-            "Kelas 7 B - SMP Negeri 28 Malang",
+            "Kelas 7i - SMP Negeri 5 Malang",
 
         pdf:
-            "https://drive.google.com/file/d/1291C9U5t9gARuknVEDtPtprGRG7OetEC/preview",
+            "https://docs.google.com/document/d/1BAxvnfdN4vnqaO9Ah1m0N-NOGx9c6Ar3/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         drive:
-            "https://drive.google.com/drive/folders/1om8T5O2HRj4faAfZtjE3fOOyCzJIM_Em?usp=sharing",
+            "https://docs.google.com/document/d/1BAxvnfdN4vnqaO9Ah1m0N-NOGx9c6Ar3/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         connection:
             "Apersepsi dan media audio-visual membantu membangun kesiapan serta meningkatkan partisipasi murid.",
@@ -103,7 +103,7 @@ const modules = {
             {
                 type: "Materi",
                 title: "Materi Pembelajaran",
-                link: "LINK_MATERI_PMA"
+                link: "https://docs.google.com/presentation/d/1kVQf5fTrkPNwTuTRPLK91qWosiiwrCfL/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true"
             },
 
             {
@@ -136,35 +136,35 @@ const modules = {
 
         year: "2026",
 
-        title: "Penggunaan Kecerdasan Artifisial Sederhana",
+        title: "Kegiatan Pembelajaran Bola Basket",
 
         description:
-            "Kelas 7 B - SMP Negeri 28 Malang",
+            "Kelas 7i - SMP Negeri 5 Malang",
 
         pdf:
-            "https://drive.google.com/file/d/1XB84uF1pqSaFTYIo8qCZUgKHZeaNuts5/preview",
+            "https://docs.google.com/document/d/1BAxvnfdN4vnqaO9Ah1m0N-NOGx9c6Ar3/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         drive:
-            "https://drive.google.com/drive/folders/1pjScikEqJMlquuMwLjI_gwckXyPrK0W5?usp=sharing",
+            "https://docs.google.com/document/d/1BAxvnfdN4vnqaO9Ah1m0N-NOGx9c6Ar3/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         connection:
-            "Media kuis digital membantu menjaga partisipasi dan antusiasme murid dalam pembelajaran daring.",
+            "Partisipasi aktif siswa dalam pembelajaran ",
 
         challenge:
             "Keterbatasan teknis membuat apersepsi, asesmen, dan refleksi belum terlaksana maksimal.",
 
         concept:
-            "Pembelajaran daring membutuhkan media interaktif dan persiapan teknis yang matang.",
+            "Pembelajaran membutuhkan media interaktif dan persiapan teknis yang matang.",
 
         change:
-            "Mempersiapkan tautan dan materi lebih awal serta menambahkan gamifikasi agar pembelajaran lebih interaktif dan menyenangkan.",
+            "Mempersiapkan tautan dan materi lebih awal serta menambahkan pembelajaran lebih interaktif dan menyenangkan.",
 
         media: [
 
             {
                 type: "Materi",
                 title: "Materi Pembelajaran",
-                link: "https://drive.google.com/file/d/1XvC7IktOc9jFPHXVodeuiKnEIOTcJTd1/view?usp=sharing"
+                link: "https://docs.google.com/presentation/d/1kVQf5fTrkPNwTuTRPLK91qWosiiwrCfL/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true"
             },
 
             {
@@ -197,16 +197,16 @@ const modules = {
 
         year: "2026",
 
-        title: "Filosofi Pendidikan dan Pendidikan Nilai",
+        title: "Kegiatan Pembelajaran Bulu Tangkis",
 
         description:
-            "Memahami filosofi pendidikan Indonesia serta nilai moral, etika, kepemimpinan, dan semangat pembelajar sepanjang hayat.",
+            "Kelas 7i - SMP Negeri 5 Malang",
 
         pdf:
-            "LINK_GOOGLE_DRIVE_FPPN_PREVIEW",
+            "https://docs.google.com/document/d/1lWotrGKsq7tgHw2-775CEFvr2Xb8nI-8/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         drive:
-            "LINK_GOOGLE_DRIVE_FPPN",
+            "https://docs.google.com/document/d/1lWotrGKsq7tgHw2-775CEFvr2Xb8nI-8/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         connection:
             "Materi filosofi pendidikan berkaitan dengan peran guru dalam membangun pembelajaran yang sesuai dengan nilai dan tujuan pendidikan Indonesia.",
@@ -225,7 +225,7 @@ const modules = {
             {
                 type: "Materi",
                 title: "Materi Pembelajaran",
-                link: "LINK_MATERI_FPPN"
+                link: "https://canva.link/l3ha400xwd4fnv4"
             },
 
             {
@@ -258,16 +258,16 @@ const modules = {
 
         year: "2026",
 
-        title: "Pola Pikir Bertumbuh (Growth Mindset) dalam Pembelajaran",
+        title: "Kegiatan Pemebelajaran Bulu Tangkis",
 
         description:
-            "Mengembangkan pola pikir bertumbuh dalam pembelajaran melalui keberanian mencoba, ketekunan, refleksi, dan umpan balik yang membangun.",
+            "Kelas 7i - SMP Negeri 5 Malang",
 
         pdf:
-            "LINK_GOOGLE_DRIVE_GROWTH_PREVIEW",
+            "https://docs.google.com/document/d/1lWotrGKsq7tgHw2-775CEFvr2Xb8nI-8/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         drive:
-            "LINK_GOOGLE_DRIVE_GROWTH",
+            "https://docs.google.com/document/d/1lWotrGKsq7tgHw2-775CEFvr2Xb8nI-8/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         connection:
             "Growth mindset berkaitan dengan peran guru dalam menciptakan lingkungan belajar yang mendorong murid untuk terus berkembang.",
@@ -286,7 +286,7 @@ const modules = {
             {
                 type: "Materi",
                 title: "Materi Pembelajaran",
-                link: "LINK_MATERI_CT"
+                link: "https://canva.link/l3ha400xwd4fnv4"
             },
 
             {
@@ -319,16 +319,16 @@ const modules = {
 
         year: "2026",
 
-        title: "Computational Thinking",
+        title: "Kegiatan Pembelajaran Bulu Tangkis",
 
         description:
-            "Mengembangkan kemampuan berpikir sistematis untuk memahami masalah dan merancang solusi yang efektif dan efisien.",
+            "Kelas 7i - SMP Negeri 5 Malang",
 
-        pdf:
-            "LINK_GOOGLE_DRIVE_CT_PREVIEW",
+ pdf:
+            "https://docs.google.com/document/d/1lWotrGKsq7tgHw2-775CEFvr2Xb8nI-8/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         drive:
-            "LINK_GOOGLE_DRIVE_CT",
+            "https://docs.google.com/document/d/1lWotrGKsq7tgHw2-775CEFvr2Xb8nI-8/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         connection:
             "Computational Thinking berkaitan erat dengan pembelajaran Informatika dan kemampuan memecahkan berbagai masalah dalam kehidupan sehari-hari.",
@@ -347,7 +347,7 @@ const modules = {
             {
                 type: "Materi",
                 title: "Materi Pembelajaran",
-                link: "LINK_MATERI_CT"
+                link: "https://canva.link/l3ha400xwd4fnv4"
             },
 
             {
@@ -380,16 +380,16 @@ const modules = {
 
         year: "2026",
 
-        title: "Pembelajaran Mendalam dan Asesmen Lanjut",
+        title: "Kegiatan Pembelajaran Senam Lantai ",
 
         description:
-            "Menerapkan pembelajaran mendalam melalui DUP, TaRL, dan CRT berdasarkan hasil asesmen dan kebutuhan belajar murid.",
+            "Kelas 7i - SMP Negeri 5 Malang",
 
         pdf:
-            "LINK_GOOGLE_DRIVE_PMA_LANJUT_PREVIEW",
+            "https://docs.google.com/document/d/153kT7YQ0elgYnDj3arp7xWV1q7vaE_Kx/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         drive:
-            "LINK_GOOGLE_DRIVE_PMA_LANJUT",
+            "https://docs.google.com/document/d/153kT7YQ0elgYnDj3arp7xWV1q7vaE_Kx/edit?usp=sharing&ouid=112387662959933041755&rtpof=true&sd=true",
 
         connection:
             "Materi ini berkaitan dengan kebutuhan guru untuk merancang pembelajaran yang adaptif berdasarkan kondisi dan kebutuhan peserta didik.",
@@ -407,13 +407,13 @@ const modules = {
 
             {
                 type: "Materi",
-                title: "Materi Pembelajaran",
-                link: "LINK_MATERI_PMA_LANJUT"
+                title: "PPT Pembelajaran Senam Lantai",
+                link: "https://canva.link/z86hmifj3gvyhgc"
             },
 
             {
                 type: "Video",
-                title: "Video Computational Thinking",
+                title: "Video Pembelajaran Senam Lantai",
                 link: "LINK_VIDEO_CT"
             }
 
@@ -455,7 +455,7 @@ if (data) {
     /* HEADER */
 
     document.title =
-        `${data.title} — Fildzah`;
+        `${data.title} — Wahyu`;
 
 
     document.getElementById("detail-year").textContent =
